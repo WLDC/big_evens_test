@@ -22,3 +22,35 @@ body {
   background: url('/big_project/assets/images/login_title.png') no-repeat center;
   /* ../images/login_title.png */
 }
+
+/* 登录居中 */
+.layui-form {
+  padding: 0 30px;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+.links a {
+  font-size: 12px;
+}
+
+.layui-form-item {
+  position: relative;
+}
+
+/* 通常 隐藏注册 */
+.register_box {
+  display: none;
+}
+
+/* 用户 密码 小图标 */
+.layui-icon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.layui-input {
+  padding-left: 32px;
+}
