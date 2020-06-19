@@ -17,3 +17,8 @@ body {
   transform: translate(-50%, -50%);
   position: absolute;
 }
+.title-box {
+  height: 60px;
+  background: url('/big_project/assets/images/login_title.png') no-repeat center;
+  /* ../images/login_title.png */
+}
