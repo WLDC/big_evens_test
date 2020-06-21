@@ -133,12 +133,12 @@ function renderAvatar(user) {
   }
 }
 
-/**
- * 主动切换 nav 
- * @param {*} newNavId 新的 nav 元素 id
- * @param {*} oldNavId 旧的 nav 元素 id
- */
-function changeNav(newNavId, oldNavId) {
-  $('#' + oldNavId).removeClass('layui-this');
-  $('#' + newNavId).addClass('layui-this');
-}
+// /**
+//  * 主动切换 nav 
+//  * @param {*} newNavId 新的 nav 元素 id
+//  * @param {*} oldNavId 旧的 nav 元素 id
+//  */
+// function changeNav(newNavId, oldNavId) {
+//   $('#' + oldNavId).removeClass('layui-this');
+//   $('#' + newNavId).addClass('layui-this');
+// }
